@@ -1,0 +1,20 @@
+.pc_menu {
+  padding: 10em 0;
+}
+@media (max-width: 991px) {
+  .pc_menu {
+    padding: 3em 0;
+  }
+}
+.mobile_menu{
+  display: none;
+  padding: 3em 0;
+}
+@media (max-width: 767px) {
+  .pc_menu{
+    display: none;
+  }
+  .mobile_menu{
+    display: block;
+  }
+}
